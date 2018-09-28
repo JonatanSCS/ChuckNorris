@@ -1,0 +1,15 @@
+// Variables
+@import '~styles/variables';
+
+.ChuckNorris__Content {
+  display: flex;
+  justify-content: space-between;
+  p {
+    color: $primary-text-color;
+    max-width: 40%;
+  }
+  div {
+    width: 40%;
+    height: 300px;
+  }
+}

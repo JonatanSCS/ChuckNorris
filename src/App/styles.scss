@@ -1,0 +1,14 @@
+// Variables
+@import '~styles/variables';
+
+.ChuckNorris {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  &__Logo {
+    width: 400px;
+    padding: 20px;
+  }
+}
